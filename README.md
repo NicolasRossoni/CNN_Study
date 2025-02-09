@@ -77,6 +77,14 @@ tkinter
 ## Como Rodar os Arquivos
 
 ### Projeto MNIST
+
+Antes entre no diretorio Mnist
+
+0. **Baixar a Base de Dados:**
+
+   ```bash
+   python3 src/database.py
+   ```
 1. **Treinar o modelo:**
    ```bash
    python3 src/train.py
@@ -91,6 +99,17 @@ tkinter
    ```
 
 ### Projeto SkinCancer
+
+Antes entre no diretorio SkinCancer
+
+0. **Baixar a Base de Dados:**
+
+   Insira ela manualmente na pasta "SkinCancer/data", após baixa-lá nesse site:
+   
+   https://www.kaggle.com/datasets/kmader/skin-cancer-mnist-ham10000/data
+
+   Os arquivos virão em uma pasta chamada "arquive", tire todos eles dessa pasta e os coloque em "SkinCancer/data".
+
 1. **Treinar o modelo:**
    ```bash
    python3 src/train.py
